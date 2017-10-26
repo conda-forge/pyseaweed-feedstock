@@ -1,14 +1,14 @@
 {% set name = "pyseaweed" %}
-{% set version = "1.0.1" %}
-{% set sha256 = "3f5620ebe6708f578717ec96ef0c4502068f76293e3e605426878853e89c351d" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "fc14e238e0a4735a07b073b3e13234803b91d6be769a2ea30c25f4e4149c129f" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
