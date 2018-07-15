@@ -19,14 +19,15 @@ call it as "NoFS".
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyseaweed-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyseaweed-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyseaweed-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyseaweed-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyseaweed-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyseaweed-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyseaweed-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyseaweed-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyseaweed/badges/version.svg)](https://anaconda.org/conda-forge/pyseaweed)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyseaweed/badges/downloads.svg)](https://anaconda.org/conda-forge/pyseaweed)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyseaweed-green.svg)](https://anaconda.org/conda-forge/pyseaweed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyseaweed.svg)](https://anaconda.org/conda-forge/pyseaweed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyseaweed.svg)](https://anaconda.org/conda-forge/pyseaweed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyseaweed.svg)](https://anaconda.org/conda-forge/pyseaweed) |
 
 Installing pyseaweed
 ====================
