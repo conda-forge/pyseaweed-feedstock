@@ -1,6 +1,6 @@
 {% set name = "pyseaweed" %}
-{% set version = "1.0.2" %}
-{% set sha256 = "fc14e238e0a4735a07b073b3e13234803b91d6be769a2ea30c25f4e4149c129f" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "2cd31e2acbcab158d06bc9e2abe347427085474b76b6ca3986712e80a82b72cd" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -36,7 +36,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Python client to WeedFS'
+  summary: Python client to WeedFS
 
   description: |
     SeaweedFS is a simple and highly scalable distributed file system. There
